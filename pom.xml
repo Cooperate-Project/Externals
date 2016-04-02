@@ -60,7 +60,7 @@
 				<artifactId>site-maven-plugin</artifactId>
 				<version>0.11</version>
 				<configuration>
-					<message>Update site artifacts for ${project.version}</message>
+					<message>Update site artifacts for ${deployVersion}</message>
 					<noJekyll>true</noJekyll>
 					<outputDirectory>${project.build.directory}/repository</outputDirectory>
 					<branch>refs/heads/gh-pages</branch>
@@ -69,7 +69,7 @@
 					</includes>
 					<repositoryName>Externals</repositoryName>
 					<repositoryOwner>Cooperate-Project</repositoryOwner>
-					<path>${deployVersion}</path>
+					<path>updatesite/${deployVersion}</path>
 					<merge>true</merge>
 				</configuration>
 				<executions>
