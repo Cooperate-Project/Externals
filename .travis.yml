@@ -1,0 +1,13 @@
+language: java
+install: true
+script:
+- mvn --settings settings.xml clean p2:site
+deploy:
+  provider: script
+  script: mvn --settings settings.xml deploy
+cache:
+  directories:
+  - "$HOME/.m2"
+env:
+  global:
+  - secure: "qo2RiljYOsJEht5CtP3ae9Pd6laniqQud/8PeK2jMXst0v40kIVWcay/O55+Gcdxw3o9zWdTGkaqtNqulW0RpjzeDWhCq3jXLXj4v03NN194vN/KKVE6OxYYINQFOgLvyTSzR082PhoUesBsNr6IC58tblleCnu4ea79e4gmhKpszYkleTlSSITnJoB/TyQIf/TEPcKOmy9hQ6WDA5rjBqXS8N0P1btfYDoTEDj8iBZ5aFX1blnDvziqemGd6618nVXtojp7yTiP9s0f31kkX8iKzgITRymJlYY+Z4cqKO7aeyMBtEJ3lR9kmxs5NcsHvY7ns+EltHo2hBIf/GlcdzLWUuOG/D6n7+psT7JsZmti3ROiMfCvHrM3vt4/Oj+kPoeYQ4qgmY30vrc6A/MjorPkZc6rC0L2UT9dYwAemgDI755/2UqfV5zUcAo452DO1a4vqfBVS7cZazjAL6/kWXB0ivYWF0LBtmMMQN2v4hfjn1F5uiLUtOICYMKbB/2LmkZ1Q1AUgKE/gKafU/vvg9rWv6snPtDd9W5zSm1rqQJOI7Rsa+GdpvzOS0hSpErm1uKhZi0dWjNdvtOWT0996R+zGb3bznun8KZXh2UtNCv4Pm4CqNPyCxQJN+VqUi6E35tiImZxpRic3XubnEmF5asPVvh2oWI5syfzsFyOSKk="
