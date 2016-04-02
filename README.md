@@ -1,6 +1,6 @@
 # External Dependencies of Cooperate
 
-[![Build Status](https://img.shields.io/travis/Cooperate-Project/Externals.svg)]()
+[![Build Status](https://img.shields.io/travis/Cooperate-Project/Externals.svg)](https://travis-ci.org/Cooperate-Project/Externals)
 
 This repository holds external dependencies that various components of the Cooperate project require.
 
