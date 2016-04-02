@@ -4,6 +4,7 @@ script:
 - mvn --settings settings.xml clean p2:site
 deploy:
   provider: script
+  skip_cleanup: true
   script: mvn --settings settings.xml deploy
 cache:
   directories:
