@@ -34,6 +34,12 @@
 								<artifact>
 									<id>org.liquibase:liquibase-osgi:3.4.2</id>
 								</artifact>
+								<artifact>
+									<id>org.xmlunit:xmlunit-core:2.1.1</id>
+								</artifact>
+								<artifact>
+									<id>org.xmlunit:xmlunit-matchers:2.1.1</id>
+								</artifact>
 							</artifacts>
 						</configuration>
 					</execution>
