@@ -40,6 +40,9 @@
 								<artifact>
 									<id>org.xmlunit:xmlunit-matchers:2.1.1</id>
 								</artifact>
+								<artifact>
+									<id>org.mariadb.jdbc:mariadb-java-client:1.4.2</id>
+								</artifact>
 							</artifacts>
 						</configuration>
 					</execution>
