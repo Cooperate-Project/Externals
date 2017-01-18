@@ -47,6 +47,18 @@
 								<artifact>
 									<id>org.mariadb.jdbc:mariadb-java-client:1.4.2</id>
 								</artifact>
+								<artifact>
+									<id>org.apache.activemq:activemq-broker:5.14.3</id>
+								</artifact>
+								<artifact>
+									<id>org.apache.activemq:activemq-client:5.14.3</id>
+								</artifact>
+								<artifact>
+									<id>org.apache.activemq:activemq-core:5.7.0</id>
+								</artifact>
+								<artifact>
+									<id>org.apache.activemq:activemq-all:5.14.3</id>
+								</artifact>
 							</artifacts>
 						</configuration>
 					</execution>
