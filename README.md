@@ -10,4 +10,4 @@ The dependencies are shipped via P2 update sites. For the most recent versions o
 
 | Name        | URL           |
 | ----------- |:-------------:|
-| latest      | https://cooperate-project.github.io/Externals/updatesite/latest |
+| latest      | https://dl.bintray.com/cooperate-project/Externals/updatesite/latest/ |
