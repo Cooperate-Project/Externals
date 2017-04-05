@@ -12,10 +12,10 @@
 	<artifactId>features</artifactId>
 	<packaging>pom</packaging>
 	<name>Feature Modules</name>
-	
+
 	<modules>
 		<module>de.cooperateproject.externals.guice</module>
 	</modules>
-	
-	
+
+
 </project>

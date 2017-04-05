@@ -112,7 +112,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			
+
 			<plugin>
 				<groupId>de.cooperateproject.maven</groupId>
 				<artifactId>de.cooperateproject.maven.bintray.deploy</artifactId>
@@ -127,7 +127,7 @@
 					</execution>
 				</executions>
 			</plugin>
-			
+
 		</plugins>
 	</build>
 </project>

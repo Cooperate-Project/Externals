@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/de.cooperateproject.externals.guice_1.0.0.qualifier.jar" id="de.cooperateproject.externals.guice" version="1.0.0.qualifier">
-      <category name="externals"/>
-   </feature>
-   <category-def name="externals" label="Cooperate Externals"/>
+	<feature url="features/de.cooperateproject.externals.guice_1.0.0.qualifier.jar" id="de.cooperateproject.externals.guice" version="1.0.0.qualifier">
+		<category name="externals"/>
+	</feature>
+	<category-def name="externals" label="Cooperate Externals"/>
 </site>

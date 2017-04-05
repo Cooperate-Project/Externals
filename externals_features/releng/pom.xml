@@ -12,9 +12,9 @@
 	<artifactId>releng</artifactId>
 	<packaging>pom</packaging>
 	<name>Releng Modules</name>
-	
+
 	<modules>
 		<module>de.cooperateproject.externals.externals_features.updatesite</module>
 	</modules>
-	
+
 </project>
