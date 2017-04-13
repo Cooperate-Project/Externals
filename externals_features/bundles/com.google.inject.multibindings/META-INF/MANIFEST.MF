@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Multibindings
+Bundle-SymbolicName: com.google.inject.multibindings
+Bundle-Version: 3.0.0.qualifier
+Bundle-Vendor: GOOGLE
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: com.google.inject;bundle-version="3.0.0",
+ com.google.guava;bundle-version="15.0.0",
+ javax.inject;bundle-version="1.0.0"
+Export-Package: com.google.inject.multibindings
