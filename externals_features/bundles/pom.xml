@@ -14,7 +14,7 @@
 	<name>Feature Modules</name>
 
 	<modules>
-		<module>com.google.inject.multibindings</module>
+		<module>com.google.inject.multibindings.bundle</module>
 	</modules>
 
 
