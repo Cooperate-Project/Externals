@@ -50,6 +50,9 @@
 									<id>org.jdal:jdal-swing:2.0.0</id>
 									<transitive>false</transitive>
 								</artifact>
+								<artifact>
+									<id>org.reflections:reflections:0.9.10</id>
+								</artifact>
 							</artifacts>
 						</configuration>
 					</execution>
