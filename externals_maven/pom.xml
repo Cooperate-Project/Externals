@@ -56,6 +56,9 @@
 								<artifact>
 									<id>org.reflections:reflections:0.9.10</id>
 								</artifact>
+								<artifact>
+									<id>org.jgrapht:jgrapht-core:1.0.1</id>
+								</artifact>
 							</artifacts>
 						</configuration>
 					</execution>
