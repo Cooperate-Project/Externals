@@ -50,6 +50,9 @@
 									<id>org.apache.activemq:activemq-client:5.14.3</id>
 								</artifact>
 								<artifact>
+									<id>org.apache.activemq:activemq-broker:5.14.3</id>
+								</artifact>
+								<artifact>
 									<id>org.jdal:jdal-swing:2.0.0</id>
 									<transitive>false</transitive>
 								</artifact>
