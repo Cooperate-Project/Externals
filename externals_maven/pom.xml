@@ -68,6 +68,9 @@
 								<artifact>
 									<id>org.ops4j:peaberry:1.3</id>
 								</artifact>
+								<artifact>
+									<id>org.apache.felix:org.apache.felix.fileinstall:3.6.4</id>
+								</artifact>
 							</artifacts>
 						</configuration>
 					</execution>
