@@ -71,6 +71,9 @@
 								<artifact>
 									<id>org.apache.felix:org.apache.felix.fileinstall:3.6.4</id>
 								</artifact>
+								<artifact>
+									<id>org.apache.felix:org.apache.felix.configadmin:1.8.16</id>
+								</artifact>
 							</artifacts>
 						</configuration>
 					</execution>
