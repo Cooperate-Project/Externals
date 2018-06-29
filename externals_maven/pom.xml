@@ -74,6 +74,12 @@
 								<artifact>
 									<id>org.apache.felix:org.apache.felix.configadmin:1.8.16</id>
 								</artifact>
+								<artifact>
+									<id>org.hibernate:hibernate-osgi:jar:4.3.11.Final</id>
+								</artifact>
+								<artifact>
+									<id>com.fasterxml:classmate:jar:1.4.0</id>
+								</artifact>
 							</artifacts>
 						</configuration>
 					</execution>
